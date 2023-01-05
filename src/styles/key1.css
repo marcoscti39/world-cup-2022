@@ -1,0 +1,90 @@
+.key-1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.key-1 .finalist {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.key-1 .octaves {
+  width: 250px;
+  height: 80px;
+  border-top: 3px solid var(--line-color);
+  border-bottom: 3px solid var(--line-color);
+  border-right: 3px solid var(--line-color);
+  position: absolute;
+  right: 100px;
+}
+
+.octaves-top {
+  top: -40px;
+}
+
+.octaves-bottom {
+  bottom: -40px;
+}
+
+.key-1 .team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  background-color: var(--bg-color);
+  padding: 0 1rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.team-flag {
+  width: 70px;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.team-bottom {
+  bottom: -20px;
+}
+
+.team-top {
+  top: -20px;
+}
+
+.team-semi-final {
+  right: 50%;
+}
+
+.key-1 .finals {
+  height: 300px;
+  width: 100px;
+  border-right: 3px var(--line-color) solid;
+  border-top: 3px var(--line-color) solid;
+  border-bottom: 3px var(--line-color) solid;
+  position: relative;
+}
+
+.key-1 .semi-finals {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  border-right: 3px var(--line-color) solid;
+  border-top: 3px var(--line-color) solid;
+  border-bottom: 3px var(--line-color) solid;
+  right: 100px;
+}
+
+.semi-final-top {
+  top: -75px;
+}
+
+.semi-final-bottom {
+  bottom: -75px;
+}
